@@ -1,7 +1,9 @@
 package jpabook.start;
 
-import javax.persistence.*;
-import java.util.List;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
 
 /**
  * @author holyeye
@@ -35,6 +37,7 @@ public class JpaMain {
 
     public static void logic(EntityManager em) {
 
+    	/*
         String id = "id1";
         Member member = new Member();
         member.setId(id);
@@ -57,6 +60,7 @@ public class JpaMain {
 
         //삭제
         em.remove(member);
+        */
 
     }
 }
